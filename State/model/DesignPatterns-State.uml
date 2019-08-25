@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qUdN8MRJEem-8KK2s7504g" name="DesignPatterns-State">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qlTtYMRJEem-8KK2s7504g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rHg7MMRMEemOMZJuEETbuw" name="MusicPlayer" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_igqdUMRQEemOMZJuEETbuw" name="Play"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jJBd0MRQEemOMZJuEETbuw" name="Pause"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jz7cAMRQEemOMZJuEETbuw" name="Stop"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lJHtUMRQEemOMZJuEETbuw" name="SetState" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sey9kMRUEemw0KIGCghwZw" name="State">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1HSA4MRVEemw0KIGCghwZw" name="Next"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1e0XIMRVEemw0KIGCghwZw" name="Previous"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HWVhYMRNEemOMZJuEETbuw" name="MusicPlayerState">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_E-rM0MRVEemw0KIGCghwZw" name="Play">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WvMoIMRVEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FbqDwMRVEemw0KIGCghwZw" name="Pause">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bDMz8MRVEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Fs7Z8MRVEemw0KIGCghwZw" name="Stop">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_eZR-8MRVEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GNDrgMRVEemw0KIGCghwZw" name="GetName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_iXncwMRVEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0Q8OwMRVEemw0KIGCghwZw" name="Next">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_E6NHEMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0pLvoMRVEemw0KIGCghwZw" name="Previous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_I4Q4EMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H5FCEMRNEemOMZJuEETbuw" name="PausedState">
+    <generalization xmi:type="uml:Generalization" xmi:id="_U_l6cMRPEemOMZJuEETbuw" general="_HWVhYMRNEemOMZJuEETbuw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lkCVcMRVEemw0KIGCghwZw" name="Play" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1J6osMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mLmEsMRVEemw0KIGCghwZw" name="Stop">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4IDNwMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_t9TGcMRVEemw0KIGCghwZw" name="Next">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7RY9QMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uT4acMRVEemw0KIGCghwZw" name="Previous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9pL7EMRWEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IRjMcMRNEemOMZJuEETbuw" name="PlayingState">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Qc_R8MRPEemOMZJuEETbuw" general="_HWVhYMRNEemOMZJuEETbuw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_npfmEMRVEemw0KIGCghwZw" name="Pause">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CzCJwMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oHABcMRVEemw0KIGCghwZw" name="Stop">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GAXocMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_uzQeEMRVEemw0KIGCghwZw" name="Next">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ISp0IMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vIpfQMRVEemw0KIGCghwZw" name="Previous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KfuIoMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I3smcMRNEemOMZJuEETbuw" name="StoppedState">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZKPV8MRPEemOMZJuEETbuw" general="_HWVhYMRNEemOMZJuEETbuw"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pWt84MRVEemw0KIGCghwZw" name="Play">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_T0dDYMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vhEmUMRVEemw0KIGCghwZw" name="Next">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WVutUMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_v5IhAMRVEemw0KIGCghwZw" name="Previous">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZRYmIMRXEemw0KIGCghwZw" name="player">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_z1ZmcMROEemOMZJuEETbuw" memberEnd="_z1bbocROEemOMZJuEETbuw _z1dQ0cROEemOMZJuEETbuw" navigableOwnedEnd="_z1bbocROEemOMZJuEETbuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1a0kMROEemOMZJuEETbuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z1bboMROEemOMZJuEETbuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z1dQ0cROEemOMZJuEETbuw" name="context" type="_rHg7MMRMEemOMZJuEETbuw" association="_z1ZmcMROEemOMZJuEETbuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z1bbocROEemOMZJuEETbuw" name="state" type="_HWVhYMRNEemOMZJuEETbuw" aggregation="shared" association="_z1ZmcMROEemOMZJuEETbuw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z1cpwMROEemOMZJuEETbuw"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
