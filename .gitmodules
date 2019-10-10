@@ -1,4 +1,4 @@
 [submodule "State/etc"]
-	path = State/etc
+	path = Behavioral/State/etc
 	url = git@github.com:dr-kino/etc.git
 	branch = master
