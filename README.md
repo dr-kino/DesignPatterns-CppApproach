@@ -29,7 +29,7 @@
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Mediator
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Memento
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Null Object
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Observer
+- ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Observer
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) State
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Strategy
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Template Method
