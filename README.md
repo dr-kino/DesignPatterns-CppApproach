@@ -18,7 +18,7 @@
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Facade
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Flyweight
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Private Class Data
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Proxy
+- ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Proxy
 
 ## Behavioral Patterns
 
