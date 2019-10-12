@@ -1,5 +1,12 @@
 # DesignPatterns-CppApproach
 
+Credits: Source code founded in this repository is from two web sites that you can find in links bellow. Here I just enjoyed that code for studies purpose, adding model, documentatation and unit tests for each design pattenrs.
+
+## Source Making
+https://sourcemaking.com/
+
+##
+
 ## Creational Patterns
 
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Abstract Factory
