@@ -45,14 +45,14 @@ https://www.badprog.com/
   - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Composite
+- ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Composite
   - [ ] Documentation/Model
   - [ ] Unit Test
-  - [ ] Implementation
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Decorator
+  - [x] Implementation
+- ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Decorator
   - [ ] Documentation/Model
   - [ ] Unit Test
-  - [ ] Implementation
+  - [x] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Facade
   - [ ] Documentation/Model
   - [ ] Unit Test
