@@ -11,112 +11,112 @@ https://www.badprog.com/
 ## Creational Patterns
 
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Factory Method
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Singleton
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Prototype
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Abstract Factory
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Builder
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Object Pool
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 
 ## Structural Patterns
 
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Adapter
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Proxy
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Composite
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Decorator
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Facade
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Private Class Data
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Flyweight
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Bridge
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 
 ## Behavioral Patterns
 
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Observer
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) State
-  - [ ] Documentation
+  - [x] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Iterpreter
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Iterator
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Strategy
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Template Method
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Visitor
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Chain of Responsability
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Command
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Mediator
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Memento
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
 - ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Null Object
-  - [ ] Documentation
+  - [ ] Documentation/Model
   - [ ] Unit Test
   - [ ] Implementation
