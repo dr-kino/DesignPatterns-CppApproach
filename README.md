@@ -53,10 +53,10 @@ https://www.badprog.com/
   - [ ] Documentation/Model
   - [ ] Unit Test
   - [x] Implementation
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Facade
+- ![#32CD32](https://placehold.it/15/32CD32/000000?text=+) Facade
   - [ ] Documentation/Model
   - [ ] Unit Test
-  - [ ] Implementation
+  - [x] Implementation
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Private Class Data
   - [ ] Documentation/Model
   - [ ] Unit Test
