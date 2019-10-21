@@ -2,11 +2,15 @@
 
 Credits: Source code founded in this repository is from two web sites that you can find in links bellow. Here I just enjoyed that code for studies purpose, adding model, documentatation and unit tests for each design pattenrs.
 
+# Credits
+
 ## Source Making
 https://sourcemaking.com/
 
 ## Bad Prog
 https://www.badprog.com/
+
+# Patterns
 
 ## Creational Patterns
 
